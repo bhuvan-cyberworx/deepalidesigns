@@ -3,11 +3,12 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand text-white" href="#"><img src="assets/images/logo.png" style="width: 150px; height: 60px; object-fit: contain;" alt=""></a>
+  <a class="navbar-brand text-white" href="#"><img src="assets/images/logo.png" style="width: 150px; height: 85px; object-fit: contain;" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse " id="">
+    <div class="nav-menu-list">
     <ul class="nav justify-content-end w-100">
       <li class="nav-item">
         <a class="nav-link active" href="#"><!-- <i class="fa fa-home"></i> --> Home</a>
@@ -42,168 +43,154 @@
         </div>
       </li> -->
     </ul>
+
+    </div>
   </div>
 </nav>
 
-<!-- Slider starts here  -->
-<div class="slider-wrapper">
-    <div class="slider" id="slider-214">
-        <div id="slide-0" class="slide active showing">
-                    <a href="">
-                    <div class="image" style="background-image: url(assets/images/s1.jpg)"></div>
-        <div class="desc" style="background-color: rgba(19, 22, 27, 0.5);">
-            <div>
-                <h3>The Times of India</h3>
-                <div class="text">Global Sports <br>
-    Buisness Show 2016</div>
-            </div>
-        </div>
-                    </a>
-            </div>
-        <div id="slide-1" class="slide ">
-                    <a href="">
-                    <div class="image" style="background-image: url(assets/images/sc.jpg)"></div>
-        <div class="desc" style="background-color: rgba(19, 22, 27, 0.5);">
-            <div>
-                <h3>Conference Event</h3>
-                <div class="text">Indian Science<br>
-    Congress 2015</div>
-            </div>
-        </div>
-                    </a>
-            </div>
-        <div id="slide-2" class="slide">
-                    <a href="">
-                    <div class="image" style="background-image: url(assets/images/hmc.jpg)"></div>
-        <div class="desc" style="background-color: rgba(19, 22, 27, 0.5);">
-            <div>
-                <h3>Corporate Events</h3>
-                <div class="text">Hero Moto<br>
-    Corp</div>
-            </div>
-        </div>
-                    </a>
-            </div>
-        <div id="slide-3" class="slide ">
-                    <a href="">
-                    <div class="image" style="background-image: url(assets/images/foi.jpg)"></div>
-        <div class="desc" style="background-color: rgba(19, 22, 27, 0.5);">
-            <div>
-                <h3>Special Events</h3>
-                <div class="text">Festival Of<br>
-    Innovations 2015</div>
-            </div>
-        </div>
-                    </a>
-            </div>
-        <!-- <div id="slide-4" class="slide ">
-                    <a href="">
-                    <div class="image" style="background-image: url(https://214.co/wp-content/uploads/2016/12/Hero_campeon_test-1400x940.jpg)"></div>
-        <div class="desc" style="background-color:rgba(12, 9, 25, 0.7);">
-            <div>
-                <h3>Campeón: Premium Tequila</h3>
-                <div class="text">Spirited<br>
-    Style</div>
-            </div>
-        </div>
-                    </a>
-            </div> -->
 
-            <ul class="dots">
-                        <li>
-            <a href="#slide-0" class="active"></a>
-        </li>
-                        <li>
-            <a href="#slide-1" class=""></a>
-        </li>
-                        <li>
-            <a href="#slide-2" class=""></a>
-        </li>
-                        <li>
-            <a href="#slide-3" class=""></a>
-        </li>
-                        <!-- <li>
-            <a href="#slide-4" class=""></a>
-        </li> -->
-                    </ul>
-    </div><!-- .slider -->
-</div>
+<main class="demo-3 loading">
+    <div class="slideshow">
+        <div class="slides">
+            <div class="slide slide--current">
+                <div class="slide__img" style="background-image: url(assets/images/s1.jpg)"></div>
+                <div class="slide-content">
+                <h2 class="slide__title">Corporate Event</h2>
+                <p class="slide__desc">JITO Connect | 2016 </p>
+                <a class="slide__link" href="#" style="display: none;" >Discover more</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide__img" style="background-image: url(assets/images/sc.jpg)"></div>
+                <h2 class="slide__title">Government Event</h2>
+                <p class="slide__desc">102 India Science Congress</p>
+                <a class="slide__link" href="#" style="display: none;"></a>
+            </div>
+            <div class="slide">
+                <div class="slide__img" style="background-image: url(assets/images/hmc.jpg)"></div>
+                <h2 class="slide__title">Auto Exhibition</h2>
+                <p class="slide__desc">Hero Moto Corp</p>
+                <a class="slide__link" href="#" style="display: none;">Find out more</a>
+            </div>
+            <div class="slide">
+                <div class="slide__img" style="background-image: url(assets/images/sports.jpg)"></div>
+                <h2 class="slide__title">Sports Event</h2>
+                <p class="slide__desc">Global Sports Business Show</p>
+                <a class="slide__link" href="#" style="display: none;"></a>
+            </div>
+        </div>
+    
+        <nav class="slidenav">
+            <button class="slidenav__item slidenav__item--prev"><i class="fa fa-chevron-circle-left"></i></button>
+            <span>/</span>
+            <button class="slidenav__item slidenav__item--next"><i class="fa fa-chevron-circle-right"></i></button>
+        </nav>
+    </div>
+</main>
+
 
 <!-- Slider ends here  -->
 
 <!-- about us begins here  -->
-<section class="about-us-section">  
+<section class="about-us-section" id="about-us-section">  
 <div class="about-us container modules fadeInUp">
-    <h3 class="heading text-center">   
-            Deepali Designs & Exhibits (DDEPL)
-    </h3>
-    <p class="text text-center shortDesc fadeInUp">   
-        offers 360 degrees, customized and innovative ‘events & exhibition solutions’ that can help transform your brand and business.
-    </p>  
-    <!-- <div class="row">    -->
+    <div id="about-heading-section">
+
+        <h3 class="heading text-center">   
+                Deepali Designs & Exhibits (DDEPL)
+        </h3>
+        <p class="text text-center shortDesc fadeInUp">   
+            offers 360 degrees, customized and innovative ‘events & exhibition solutions’ that can help transform your brand and business.
+        </p> 
+        
+    </div>
+    <div class="row " id="feature-boxes">   
            
-         <!--        <div class="about-us-box col-md-12">
-                    <h4 class="about-heading heading text-center">Corporate</h4>
+                
+                <div class="about-us-box col-md-3 fadeInUp" >
+                <a href="#">
+                    <img src="assets/images/icons/feature-3.png">
+                    <h4 class="feature-heading heading text-center Corporate">Exhibitons <!-- <br> --><span class="right-text"></span></h4>
                     <p class="about-text">
-                        We are one of ‘just a select few’ specialists in the industry that have the complete array of services required for ‘Events & Exhibitions’ under one roof – quality Infrastructure, Creative skill-set and specialized Executioners, ensuring we exceed your expectations, each time, every time.
-
-We have a track record of 25 years of successful execution & management of exhibitions and events of varying scales, across India and internationally too.
-Headquartered in New Delhi, we also have fully-equipped set-ups at Mumbai and an extensive network across India. Our bespoke activities include managing varied scales of exhibitions, seminars & conferences, corporate events, special events, sports event, etc.
+                    We have an enviable track-record of converting potential clients into regular.
                     </p>
-                </div> -->
-                <!-- <div class="about-us-box col-md-6">
-                    <h4 class="about-heading heading text-center">Private</h4>
+                </a>
+                </div>
+                <div class="about-us-box col-md-3 fadeInUp">
+                <a href="#">
+                    <img src="assets/images/icons/feature-2.png">
+                    <h4 class="feature-heading heading text-center Corporate">Corporate <!-- <br> --><span class="right-text">Events</span></h4>
                     <p class="about-text">
-                        We take pride in our ability to fuse art and engineering, which has led us to manage some of the largest events, exhibitions & Conferences held in India, such as Auto Expo Delhi, MCHI Credai Property Expo 2015, National Game 2016, South Asian Games 2016, Brics Games Goa, Indian Science Congress 2015 etc; as well several other signature exhibitions and events.
-
-We have an enviable track-record of converting potential clients into regular customers with our impressive range of German Hangars, Pagodas, Marquees, Exhibition Stands, Prefab Octonorm & Maxima System Structures for stall etc.
+                    We have an enviable track-record of converting potential clients into regular.
                     </p>
-                </div> -->
+                </a>
+                </div>
+                <div class="about-us-box col-md-3 fadeInUp">
+                <a href="#">
+                    <img src="assets/images/icons/feature-5.png">
+                    <h4 class="feature-heading heading text-center Corporate">Conferences <!-- <br> --><span class="right-text"></span></h4>
+                    <p class="about-text">
+                    We have an enviable track-record of converting potential clients into regular.
+                    </p>
+                </a>
+                </div>
+                <div class="about-us-box col-md-3 fadeInUp">
+                <a href="#">
+                    <img src="assets/images/icons/feature-4.png">
+                    <h4 class="feature-heading heading text-center Corporate">Sports <!-- <br> --><span class="right-text">Events</span></h4>
+                    <p class="about-text">
+                    We have an enviable track-record of converting potential clients into regular.
+                    </p>
+                </a>
+                </div>
 
-    <!-- </div> -->
+    </div>
 </div>
 </section>
 
 <!-- About us ends here -->
 
 
-<div class="works-list">
+<div class="works-list" id="work-list">
     <a href="" class="work-item module white" style="background-image: url(assets/images/work-1.jpg);">
-            <div class="description" style="background-color: rgba(188,142,118,0.95);">
-            <span>Reframing what it means to have flowers delivered in NYC<br/></span>
+            <div class="description" style="background-color: rgba(165, 92, 53,0.95);">
+            <span>Global Sports Business<br/> Show 2016</span>
         </div>
-        <h4 class="project-name">Half &#038; Half: Flower Subscription</h4>
+        <h4 class="project-name">Event Type : Sports Event<!--  <br> Year : 2016 --></h4>
+       
 </a>
 <a href="" class="work-item module white" style="background-image: url(assets/images/2.jpg);">
-            <div class="description" style="background-color: rgba(195,172,130,0.95);">
-            <span>Mindful touches brand an unforgettable retreat<br/></span>
+            <div class="description" style="background-color: rgba(54, 73, 177, 0.95);">
+            <span>102 Indian Science <br/>Congress</span>
         </div>
-        <h4 class="project-name">Life@Work: Culture Conferences</h4>
+        <h4 class="project-name">Event Type : Conferences</h4>
 </a>
-<a href="" class="work-item module black" style="background-image: url(assets/images/SubWork_5_Batsu.jpg);">
-            <div class="description" style="background-color: rgba(10,10,10,0.95);">
-            <span>Quirky branding puts a painfully funny comedy show over the top<br/></span>
+
+<a href="" class="work-item module white" style="background-image: url(assets/images/hero.jpg);">
+            <div class="description" style="background-color: rgba(15, 14, 45,0.95);">
+            <span>Hero Moto <br/>Corp</span>
         </div>
-        <h4 class="project-name">Batsu: Improv Comedy Show</h4>
+        <h4 class="project-name">Event Type : Auto Exhibition</h4>
 </a>
+
 <a href="" class="work-item module white" style="background-image: url(assets/images/3.jpg);">
             <div class="description" style="background-color: rgba(38,45,71,0.95);">
-            <span>How can a fashion brand capture the essence of East Hampton lifestyle?<br/></span>
+            <span>Johhne Walker<br/> Golf Tournament</span>
         </div>
-        <h4 class="project-name">Big Flower: Apparel Brand</h4>
+        <h4 class="project-name">Event Type : Sports Event</h4>
 </a>
-<a href="" class="work-item module white" style="background-image: url(assets/images/SubWork_4.6_Hub.jpg);">
-            <div class="description" style="background-color: rgba(99,99,99,0.95);">
-            <span>A luxury housing brand to rally the college crowd<br/></span>
+<a href="" class="work-item module white" style="background-image: url(assets/images/foi1.jpg);">
+            <div class="description" style="background-color: rgba(77, 172, 166,0.95);">
+            <span>Festival Of <br/>Innovation</span>
         </div>
-        <h4 class="project-name">Hub on Campus: Luxury Housing</h4>
+        <h4 class="project-name">Event Type : Special Events </h4>
 </a>
-        <a href="" class="work-item module more-work" style="background-image: url(assets/images/Hero_solti-700x700.jpg);">
+        <a href="" class="work-item module more-work" style="background-image: url(assets/images/IHGF.jpg);">
         <span>More Work</span>
     </a>
 </div>
 
-<section class="bg-dark call-to-action">
+<section class="bg-dark call-to-action" id="call-to-action">
 <div class="container">
     <div class="row">
         <div class="col-sm-12 text-center">
@@ -213,19 +200,19 @@ We have an enviable track-record of converting potential clients into regular cu
     </div>
 </section>
 
-<div class="brands module col-12">
+<div class="brands module col-12" id="brand">
     <h3>Brands We've Worked With</h3>
         <ul class="logos-list">
-                <li style="background-image: url(assets/images/clients/11.png)"></li>
-                <li style="background-image: url(assets/images/clients/2.png)"></li>
-                <li style="background-image: url(assets/images/clients/3.png)"></li>
-                <li style="background-image: url(assets/images/clients/4.png)"></li>
-                <li style="background-image: url(assets/images/clients/5.png)"></li>
-                <li style="background-image: url(assets/images/clients/6.png)"></li>
-                <li style="background-image: url(assets/images/clients/7.png)"></li>
-                <li style="background-image: url(assets/images/clients/8.png)"></li>
-                <li style="background-image: url(assets/images/clients/9.png)"></li>
-                <li style="background-image: url(assets/images/clients/10.png)"></li>
+                <li class="logo-img" style="background-image: url(assets/images/clients/11.png)"></li>
+                <li class="logo-img" style="background-image: url(assets/images/clients/2.png)"></li>
+                <li class="logo-img" style="background-image: url(assets/images/clients/3.png)"></li>
+                <li class="logo-img" style="background-image: url(assets/images/clients/4.png)"></li>
+                <li class="logo-img" style="background-image: url(assets/images/clients/5.png)"></li>
+                <li class="logo-img" style="background-image: url(assets/images/clients/6.png)"></li>
+                <li class="logo-img" style="background-image: url(assets/images/clients/7.png)"></li>
+                <li class="logo-img" style="background-image: url(assets/images/clients/8.png)"></li>
+                <li class="logo-img" style="background-image: url(assets/images/clients/9.png)"></li>
+                <li class="logo-img" style="background-image: url(assets/images/clients/10.png)"></li>
                 <!-- <li style="background-image: url(assets/images/YouTube-logo-209x173.svg)"></li>
                 <li style="background-image: url(assets/images/BF-logo-209x173.svg)"></li>
                 <li style="background-image: url(assets/images/sprout-logo-209x173.svg)"></li>
@@ -237,4 +224,24 @@ We have an enviable track-record of converting potential clients into regular cu
 
 <?php include_once("includes/footer-menu.php"); ?>
 <!-- Including footer -->
+
+
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<script>
+window.counter = function() {
+    // this refers to the html element with the data-scroll-showCallback tag
+    var span = this.querySelector('span');
+    var current = parseInt(span.textContent);
+
+    span.textContent = current + 1;
+};
+
+document.addEventListener('DOMContentLoaded', function(){
+  var trigger = new ScrollTrigger({
+      addHeight: true
+  });
+});
+</script>
+
+
 <?php include_once("includes/footer.php"); ?>
