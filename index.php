@@ -75,7 +75,7 @@
         <div id="slide-2" class="slide">
                     <a href="">
                     <div class="image" style="background-image: url(assets/images/hmc.jpg)"></div>
-        <div class="desc" style="background-color: rgba(132, 90, 140, 0.6);">
+        <div class="desc" style="background-color: rgba(19, 22, 27, 0.5);">
             <div>
                 <h3>Corporate Events</h3>
                 <div class="text">Hero Moto<br>
@@ -87,7 +87,7 @@
         <div id="slide-3" class="slide ">
                     <a href="">
                     <div class="image" style="background-image: url(assets/images/foi.jpg)"></div>
-        <div class="desc" style="background-color: rgba(79, 132, 138, 0.6);">
+        <div class="desc" style="background-color: rgba(19, 22, 27, 0.5);">
             <div>
                 <h3>Special Events</h3>
                 <div class="text">Festival Of<br>
