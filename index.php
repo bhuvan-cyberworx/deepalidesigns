@@ -3,7 +3,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand text-white" href="#"><img src="assets/images/logo-old.png" style="width: 150px; height: 60px; object-fit: contain;" alt=""></a>
+  <a class="navbar-brand text-white" href="#"><img src="assets/images/logo.png" style="width: 150px; height: 60px; object-fit: contain;" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -216,22 +216,23 @@ We have an enviable track-record of converting potential clients into regular cu
 <div class="brands module col-12">
     <h3>Brands We've Worked With</h3>
         <ul class="logos-list">
-                <li style="background-image: url(assets/images/lafermiere-logo-209x173.svg)"></li>
-                <li style="background-image: url(assets/images/corespaces-209x173.svg)"></li>
-                <li style="background-image: url(assets/images/Grey-JasonWu-logo-209x173.svg)"></li>
-                <li style="background-image: url(assets/images/Solti-logo-209x173-1.svg)"></li>
-                <li style="background-image: url(assets/images/whole-foods-logo-209x173.svg)"></li>
-                <li style="background-image: url(assets/images/m3-financial-logo-209x173.svg)"></li>
-                <li style="background-image: url(assets/images/hub-on-campus-logo-209x173.svg)"></li>
-                <li style="background-image: url(assets/images/life-at-work-logo-209x173.svg)"></li>
-                <li style="background-image: url(assets/images/campeon-logo-209x173.svg)"></li>
-                <li style="background-image: url(assets/images/google-logo-209x173.svg)"></li>
+                <li style="background-image: url(assets/images/clients/11.png)"></li>
+                <li style="background-image: url(assets/images/clients/2.png)"></li>
+                <li style="background-image: url(assets/images/clients/3.png)"></li>
+                <li style="background-image: url(assets/images/clients/4.png)"></li>
+                <li style="background-image: url(assets/images/clients/5.png)"></li>
+                <li style="background-image: url(assets/images/clients/6.png)"></li>
+                <li style="background-image: url(assets/images/clients/7.png)"></li>
+                <li style="background-image: url(assets/images/clients/8.png)"></li>
+                <li style="background-image: url(assets/images/clients/9.png)"></li>
+                <li style="background-image: url(assets/images/clients/10.png)"></li>
                 <!-- <li style="background-image: url(assets/images/YouTube-logo-209x173.svg)"></li>
                 <li style="background-image: url(assets/images/BF-logo-209x173.svg)"></li>
                 <li style="background-image: url(assets/images/sprout-logo-209x173.svg)"></li>
                 <li style="background-image: url(assets/images/half-and-half-circle-logo-209x173.svg)"></li>
                 <li style="background-image: url(assets/images/derris-logo-209x173.svg)"></li> -->
             </ul>
+            <a class="btn btn-lg text-center callAction mb0" href="#" target="_self">View All Clients</a>
     </div>
 
 <?php include_once("includes/footer-menu.php"); ?>

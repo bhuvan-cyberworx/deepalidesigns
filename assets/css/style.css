@@ -1,6 +1,8 @@
 /*------------------------------------*\
     TYPOGRAPHY
 \*------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
 @font-face {
   font-family: 'Graphik';
   src: url("../fonts/Graphik-SemiboldItalic-Web.eot");
@@ -43,9 +45,116 @@
   font-weight: 300;
   font-style: normal;
   font-stretch: normal; }
-
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 100;
+  font-style: normal;
+  src: url("../fonts/329AAA_0_0.eot");
+  src: url("../fonts/329AAA_0_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_0_0.woff2") format("woff2"), url("../fonts/329AAA_0_0.woff") format("woff"), url("../fonts/329AAA_0_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 100;
+  font-style: italic;
+  src: url("../fonts/329AAA_2_0.eot");
+  src: url("../fonts/329AAA_2_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_2_0.woff2") format("woff2"), url("../fonts/329AAA_2_0.woff") format("woff"), url("../fonts/329AAA_2_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 200;
+  font-style: normal;
+  src: url("../fonts/329AAA_5_0.eot");
+  src: url("../fonts/329AAA_5_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_5_0.woff2") format("woff2"), url("../fonts/329AAA_5_0.woff") format("woff"), url("../fonts/329AAA_5_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 200;
+  font-style: italic;
+  src: url("../fonts/329AAA_1_0.eot");
+  src: url("../fonts/329AAA_1_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_1_0.woff2") format("woff2"), url("../fonts/329AAA_1_0.woff") format("woff"), url("../fonts/329AAA_1_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/329AAA_B_0.eot");
+  src: url("../fonts/329AAA_B_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_B_0.woff2") format("woff2"), url("../fonts/329AAA_B_0.woff") format("woff"), url("../fonts/329AAA_B_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/329AAA_A_0.eot");
+  src: url("../fonts/329AAA_A_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_A_0.woff2") format("woff2"), url("../fonts/329AAA_A_0.woff") format("woff"), url("../fonts/329AAA_A_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/329AAA_6_0.eot");
+  src: url("../fonts/329AAA_6_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_6_0.woff2") format("woff2"), url("../fonts/329AAA_6_0.woff") format("woff"), url("../fonts/329AAA_6_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-style: italic;
+  src: url("../fonts/329AAA_7_0.eot");
+  src: url("../fonts/329AAA_7_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_7_0.woff2") format("woff2"), url("../fonts/329AAA_7_0.woff") format("woff"), url("../fonts/329AAA_7_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/329AAA_9_0.eot");
+  src: url("../fonts/329AAA_9_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_9_0.woff2") format("woff2"), url("../fonts/329AAA_9_0.woff") format("woff"), url("../fonts/329AAA_9_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-style: italic;
+  src: url("../fonts/329AAA_8_0.eot");
+  src: url("../fonts/329AAA_8_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_8_0.woff2") format("woff2"), url("../fonts/329AAA_8_0.woff") format("woff"), url("../fonts/329AAA_8_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/329AAA_4_0.eot");
+  src: url("../fonts/329AAA_4_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_4_0.woff2") format("woff2"), url("../fonts/329AAA_4_0.woff") format("woff"), url("../fonts/329AAA_4_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-style: italic;
+  src: url("../fonts/329AAA_3_0.eot");
+  src: url("../fonts/329AAA_3_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_3_0.woff2") format("woff2"), url("../fonts/329AAA_3_0.woff") format("woff"), url("../fonts/329AAA_3_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/329AAA_11_0.eot");
+  src: url("../fonts/329AAA_11_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_11_0.woff2") format("woff2"), url("../fonts/329AAA_11_0.woff") format("woff"), url("../fonts/329AAA_11_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-style: italic;
+  src: url("../fonts/329AAA_10_0.eot");
+  src: url("../fonts/329AAA_10_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_10_0.woff2") format("woff2"), url("../fonts/329AAA_10_0.woff") format("woff"), url("../fonts/329AAA_10_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: normal;
+  src: url("../fonts/329AAA_F_0.eot");
+  src: url("../fonts/329AAA_F_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_F_0.woff2") format("woff2"), url("../fonts/329AAA_F_0.woff") format("woff"), url("../fonts/329AAA_F_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  font-style: italic;
+  src: url("../fonts/329AAA_E_0.eot");
+  src: url("../fonts/329AAA_E_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_E_0.woff2") format("woff2"), url("../fonts/329AAA_E_0.woff") format("woff"), url("../fonts/329AAA_E_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/329AAA_13_0.eot");
+  src: url("../fonts/329AAA_13_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_13_0.woff2") format("woff2"), url("../fonts/329AAA_13_0.woff") format("woff"), url("../fonts/329AAA_13_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 900;
+  font-style: italic;
+  src: url("../fonts/329AAA_12_0.eot");
+  src: url("../fonts/329AAA_12_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/329AAA_12_0.woff2") format("woff2"), url("../fonts/329AAA_12_0.woff") format("woff"), url("../fonts/329AAA_12_0.ttf") format("truetype"); }
 body{
-	font-family: 'Graphik' !important;
+	font-family: 'Gilroy' !important;
 }
 /*Slider Styles*/
 .slider {
@@ -469,9 +578,9 @@ img {
 
 }
 .nav-item a {
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 400;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
     opacity: 1;
@@ -479,13 +588,14 @@ img {
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
+    font-family: 'open sans';
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light{
 	position: absolute;
 	z-index: 10000;
 	width: 100%;
-	padding: 15px 20px;
+	padding: 15px 40px;
 }
 
 .ebor-page-wrapper > .wpb_row {
@@ -536,7 +646,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light{
     .brands {
       padding: 78px 30px 45px; } }
   .brands h3 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 300;
     margin-bottom: 53px; }
     @media (max-width: 1024px) {
@@ -640,8 +750,8 @@ a img {
 .footer .footer-text {
     color: #fff;
     background-color: #000;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-weight: 500;
+    text-transform: capitalize;
     text-align: center;
     padding: 16px 15px 17px;
     font-size: 12px;
@@ -765,4 +875,14 @@ section.about-us-section:before {
     background-size: contain;
     background-position: right;
 
+}
+
+.brands a.btn{
+	color: #333;
+	border-color: #333;
+}
+
+.brands a.btn:hover{
+	color: #000;
+	border-color: #000;
 }
